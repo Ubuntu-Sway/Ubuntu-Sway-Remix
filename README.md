@@ -1,6 +1,6 @@
 # Ubuntu with [Sway](https://github.com/swaywm/sway) Wayland compositor
 
-[Launchpad](https://launchpad.net/~ubuntusway-dev) | [Website](https://ubuntu-sway.github.io/) | [Wiki](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki) | [Development board](https://github.com/orgs/Ubuntu-Sway/projects?type=beta)
+[Launchpad](https://launchpad.net/~ubuntusway-dev) | [Website](https://ubuntu-sway.github.io/) | [Mastodon](https://mas.to/web/@ubuntusway) | [Matrix](https://matrix.to/#/#ubuntusway:matrix.org) | [Wiki](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki) | [Development board](https://github.com/orgs/Ubuntu-Sway/projects?type=beta)
 
 ![2022-05-24T21:15:50,611785616+04:00](https://user-images.githubusercontent.com/11344982/170094239-a31829b7-f53c-4526-8f9b-6f87d18fe156.png)
 
