@@ -1,5 +1,7 @@
 # Ubuntu with [Sway](https://github.com/swaywm/sway) Wayland compositor
 
+[Launchpad](https://launchpad.net/~ubuntusway-dev) | [Website](https://ubuntu-sway.github.io/) | [Wiki](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki) | [Development board](https://github.com/orgs/Ubuntu-Sway/projects?type=beta)
+
 ![2022-05-24T21:15:50,611785616+04:00](https://user-images.githubusercontent.com/11344982/170094239-a31829b7-f53c-4526-8f9b-6f87d18fe156.png)
 
 
@@ -10,34 +12,42 @@
 * [Azote](https://github.com/nwg-piotr/azote)
 * [Autotiling](https://github.com/nwg-piotr/autotiling)
 * [Cliphist](https://github.com/sentriz/cliphist)
+* Engrampa
 * Firefox
 * Flatpak
 * [Foot](https://codeberg.org/dnkl/foot)
 * Gimp
+* GNOME Packagekit
 * Gparted
 * [Greetd](https://sr.ht/~kennylevinsen/greetd/)
 * [Grimshot](https://github.com/swaywm/sway/blob/master/contrib/grimshot)
 * htop
 * [Kanshi](https://git.sr.ht/~emersion/kanshi)
 * [Khal](https://github.com/pimutils/khal)
+* [Kitty](https://github.com/kovidgoyal/kitty)
 * LibreOffice
+* MATE Calc
 * [Neovim](https://github.com/neovim/neovim)
+* [nwg-wrapper](https://github.com/nwg-piotr/nwg-wrapper)
+* [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer)
+* [nwg-look](https://github.com/nwg-piotr/nwg-look)
 * Pavucontrol
+* PCManFM
 * Pluma
 * [Poweralertd](https://sr.ht/~kennylevinsen/poweralertd/)
 * Pulsemixer
 * [Swayimg](https://github.com/artemsen/swayimg)
 * Ranger
-* Thunar
 * Thunderbird
 * [Tuigreet](https://github.com/apognu/tuigreet)
-* [nwg-wrapper](https://github.com/nwg-piotr/nwg-wrapper)
-* [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer)
 * Ubuntu Driver Manager
 * Waybar
+* [Waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe)
+* [Wayvnc](https://github.com/any1/wayvnc)
 * [Wdisplays](https://github.com/luispabon/wdisplays)
 * [wf-recorder](https://github.com/ammen99/wf-recorder)
 * [wlr-randr](https://sr.ht/~emersion/wlr-randr/)
+* [wlogout](https://github.com/ArtsyMacaw/wlogout)
 * [Zathura](https://github.com/pwmt/zathura)
 
 **Config files:**
@@ -54,5 +64,5 @@
 /etc/sway/variables - system default variables for default apps and settings
 
 /usr/share/sway/scripts/ - scripts for weather inficator, WOB indicator, etc.
-/usr/share/sway/themes/ - theme and color settings
+/usr/share/themes/yaru-sway/ - theme and color settings
 ```
