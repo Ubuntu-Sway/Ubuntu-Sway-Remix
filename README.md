@@ -5,12 +5,14 @@
 ![2022-05-24T21:15:50,611785616+04:00](https://user-images.githubusercontent.com/11344982/170094239-a31829b7-f53c-4526-8f9b-6f87d18fe156.png)
 
 
-#### This project is an attempt to take the best from Sway, Wayland and Ubuntu world's. It uses some very useful CLI-based Wayland apps along with some graphical apps to meet the needs of most users.
+#### This project is an attempt to provide a user-friendly desktop based on Sway - a popular tiling window manager (compositor) using the modern Wayland graphics stack. Ubuntu Sway Remix is great for both beginners who want to get familiar with the keyboard-oriented interface of tiling window managers and advanced GNU/Linux users who want a powerful, user-friendly and minimalistic interface. Ubuntu Sway contains popular console-based applications and utilities (CLI) along with graphical user interface (GUI) applications to meet the needs of most users.
 
 #### Features:
 
 * Solid Ubuntu base
+* No Snap's!
 * Very cool tiling Wayland compositor with amazing community
+* Lightweight, easy to install, simple to use
 * Popular console-based apps along with GUI apps
 * Many customizations for comfortable use of Sway
 * Ready to use out of the box
