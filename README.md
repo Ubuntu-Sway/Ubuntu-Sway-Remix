@@ -67,7 +67,7 @@
 ```
 ~/.config/sway/config - common config that includes all user and system config's
 ~/.config/sway/config.d/ - user defined config's (put your config's here to overwrite system's one)
-~/.config/sway/variables.d/ - user defined variables for defalut apps and settings (put your own variables here)
+~/.config/sway/variables.d/ - user defined variables for default apps and settings (put your own variables here)
 ~/.config/waybar/ - Waybar config's
 
 /etc/sway/config.d/ - system config's for autostart applications and settings
