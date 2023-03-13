@@ -1,6 +1,6 @@
 # Ubuntu with [Sway](https://github.com/swaywm/sway) Wayland compositor
 
-[Launchpad](https://launchpad.net/~ubuntusway-dev) | [Website](https://ubuntusway.com/) | [Mastodon](https://mas.to/web/@ubuntusway) | [Matrix](https://matrix.to/#/#ubuntusway:matrix.org) | [Wiki](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki) | [Development board](https://github.com/orgs/Ubuntu-Sway/projects?type=beta)
+[Website](https://ubuntusway.com/) | [Mastodon](https://mas.to/web/@ubuntusway) | [Matrix](https://matrix.to/#/#ubuntusway:matrix.org) | [Telegram](https://t.me/ubuntu_sway_chat) | [Wiki](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki)
 
 ![1](https://user-images.githubusercontent.com/11344982/183612420-4bba314f-a1d5-4547-b838-b8c097fede4f.png)
 ![2](https://user-images.githubusercontent.com/11344982/183612463-2d8cb020-ffab-4dc5-a056-5cecd7eca062.png)
@@ -10,7 +10,7 @@
 
 #### This project is an attempt to provide a user-friendly desktop based on Sway - a popular tiling window manager (compositor) using the modern Wayland graphics stack. Ubuntu Sway Remix is great for both beginners who want to get familiar with the keyboard-oriented interface of tiling window managers and advanced GNU/Linux users who want a powerful, user-friendly and minimalistic interface. Ubuntu Sway contains popular console-based applications and utilities (CLI) along with graphical user interface (GUI) applications to meet the needs of most users.
 
-#### Features:
+## Features:
 
 * Solid Ubuntu base
 * No Snap's!
@@ -20,62 +20,33 @@
 * Many customizations for comfortable use of Sway
 * Ready to use out of the box
 
-**Apps included:**
+## How to install
 
-* [Azote](https://github.com/nwg-piotr/azote)
-* [Autotiling](https://github.com/nwg-piotr/autotiling)
-* [Cliphist](https://github.com/sentriz/cliphist)
-* Engrampa
-* Firefox
-* Flatpak
-* [Foot](https://codeberg.org/dnkl/foot)
-* Gimp
-* GNOME Packagekit
-* Gparted
-* [Greetd](https://sr.ht/~kennylevinsen/greetd/)
-* [Grimshot](https://github.com/swaywm/sway/blob/master/contrib/grimshot)
-* htop
-* [Kanshi](https://git.sr.ht/~emersion/kanshi)
-* [Khal](https://github.com/pimutils/khal)
-* [Kitty](https://github.com/kovidgoyal/kitty)
-* LibreOffice
-* MATE Calc
-* [Neovim](https://github.com/neovim/neovim)
-* [nwg-wrapper](https://github.com/nwg-piotr/nwg-wrapper)
-* [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer)
-* [nwg-look](https://github.com/nwg-piotr/nwg-look)
-* Pavucontrol
-* PCManFM
-* Pluma
-* [Poweralertd](https://sr.ht/~kennylevinsen/poweralertd/)
-* Pulsemixer
-* [Swayimg](https://github.com/artemsen/swayimg)
-* Ranger
-* Thunderbird
-* [Tuigreet](https://github.com/apognu/tuigreet)
-* Ubuntu Driver Manager
-* Waybar
-* [Waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe)
-* [Wayvnc](https://github.com/any1/wayvnc)
-* [Wdisplays](https://github.com/luispabon/wdisplays)
-* [wf-recorder](https://github.com/ammen99/wf-recorder)
-* [wlr-randr](https://sr.ht/~emersion/wlr-randr/)
-* [wlogout](https://github.com/ArtsyMacaw/wlogout)
-* [Zathura](https://github.com/pwmt/zathura)
+You can find the latest images on [ubuntusway.downloads](https://ubuntusway.com/downloads.php).
 
-**Config files:**
-```
-~/.config/sway/config - common config that includes all user and system config's
-~/.config/sway/config.d/ - user defined config's (put your config's here to overwrite system's one)
-~/.config/sway/variables.d/ - user defined variables for default apps and settings (put your own variables here)
-~/.config/waybar/ - Waybar config's
+You can create a bootable USB stick using [Etcher](https://www.balena.io/etcher/) or a similar tool.
 
-/etc/sway/config.d/ - system config's for autostart applications and settings
-/etc/sway/modes/ - system default modes for Sway (keybindings)
-/etc/sway/outputs/ - system default settings for output configuration
-/etc/sway/inputs/ - system default settings for input devices
-/etc/sway/variables - system default variables for default apps and settings
+Check out our [FAQ](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/FAQ) for additional hints.
 
-/usr/share/sway/scripts/ - scripts for weather inficator, WOB indicator, etc.
-/usr/share/themes/yaru-sway/ - theme and color settings
-```
+## Development
+
+### Sources
+- [PPA repositories on Launchpad](https://launchpad.net/~ubuntusway-dev)
+- [Development board](https://github.com/orgs/Ubuntu-Sway/projects?type=beta)
+- [Default configuration files](https://github.com/Ubuntu-Sway/ubuntu-sway-default-settings)
+- [Installer settings](https://github.com/Ubuntu-Sway/calamares-settings-ubuntu-sway)
+- [ARM specific installer settings](https://github.com/Ubuntu-Sway/calamares-arm-oem)
+- [Metapackages](https://github.com/Ubuntu-Sway/ubuntu-sway-meta)
+- [Artwork](https://github.com/Ubuntu-Sway/ubuntu-sway-artwork)
+- [ISO builder](https://github.com/Ubuntu-Sway/iso-builder)
+
+### How to Build
+See build instructions in [ISO builder](https://github.com/Ubuntu-Sway/iso-builder) page.
+
+### Contributing
+- Join our Matrix or Telegram chat.
+- Use the distribution on a daily basis, find and share solutions to problems you have.
+- Submit bug reports in [issues](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/issues)
+- Help collecting improvement ideas in [discussions](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/discussions)
+- Create pull requests with your ideas in our projects.
+- Contribute to the [documentation](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki) and help others in our chat
