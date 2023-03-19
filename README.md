@@ -20,13 +20,27 @@
 * Many customizations for comfortable use of Sway
 * Ready to use out of the box
 
-## How to install
+## System requirements:
 
-You can find the latest images on [ubuntusway.downloads](https://ubuntusway.com/downloads.php).
+* CPU: Dual-core CPU with 1.6 GHz
+* RAM: 1 GB
+* Storage space: 20 GB
+* GPU: Any Intel or AMD gpu (Nvidia cards required additional settings and **NOT** officially supported. [See](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/Nvidia-cards) for details.)
 
-You can create a bootable USB stick using [Etcher](https://www.balena.io/etcher/) or a similar tool.
+### Raspberry Pi:
 
-Check out our [FAQ](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/FAQ) for additional hints.
+* Supported models: 3b, 3b+, 4 and 400 (arm64 only)
+* microSD card: 8 GB required
+* Required good CPU heatsink
+
+## Installation:
+
+* Download image from [downloads](https://ubuntusway.com/downloads.php) page
+* Create bootable USB stick using [Etcher](https://www.balena.io/etcher/) or similar tool
+* Click "Run Calamares installer" in Ubuntu Sway Welcome app (on Ubuntu Sway Remix 22.04 the installer will run automatically after boot to desktop)
+* Follow through installation process. Installation is pretty straightforward and takes 10-20 minutes depending on your storage device speed. Check out our [FAQ](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/FAQ) for additional hints.
+* **NOTE:** there are currently problems installing using partition encryption. Use at your own risk!
+
 
 ## Development
 
@@ -35,7 +49,7 @@ Check out our [FAQ](https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki/FAQ) f
 - [Development board](https://github.com/orgs/Ubuntu-Sway/projects?type=beta)
 - [Default configuration files](https://github.com/Ubuntu-Sway/ubuntu-sway-default-settings)
 - [Installer settings](https://github.com/Ubuntu-Sway/calamares-settings-ubuntu-sway)
-- [ARM specific installer settings](https://github.com/Ubuntu-Sway/calamares-arm-oem)
+- [Raspberry Pi specific installer settings](https://github.com/Ubuntu-Sway/calamares-settings-ubuntu-sway-raspi)
 - [Metapackages](https://github.com/Ubuntu-Sway/ubuntu-sway-meta)
 - [Artwork](https://github.com/Ubuntu-Sway/ubuntu-sway-artwork)
 - [ISO builder](https://github.com/Ubuntu-Sway/iso-builder)
